@@ -1,0 +1,10 @@
+[package]
+name = "codematrix-exec-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tempfile = "3.14.0"
+tokio = { version = "1.42.0", features = ["full"] }
+rlimit = "0.10.2"
+nix = "0.26"
